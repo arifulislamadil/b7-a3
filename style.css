@@ -3,9 +3,15 @@
     background-color: #B68C5A !important;
     color: white;
 }
-
 .legal-row >div{
-    border: 2px solid lightgray;
+    background-color: white;
+    transition: all 0.99s ease;
+    cursor: pointer;
+}
+.legal-row >div:hover{
+    background-color: lightgray;
+    transform: scale(1, 1.033);
+    overflow: hidden;
 }
 
 .img-client{
