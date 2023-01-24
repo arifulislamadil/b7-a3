@@ -37,19 +37,3 @@
     background-blend-mode: multiply;
     z-index: 33;
 }
-
-@media screen and(max-width: 576px) {
-   
-}
-
-@media screen and(min-width: 577px) and (max-width: 992px) {
-   
-}
-
-@media screen and(min-width: 993px) and (max-width: 1200px) {
-    
-}
-
-@media screen and(min-width: 1201px) {
-    
-}
