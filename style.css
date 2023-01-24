@@ -1,0 +1,31 @@
+.btn-style {
+    padding: 8px 20px !important;
+    background-color: #B68C5A !important;
+    color: white;
+}
+
+.legal-row >div{
+    border: 2px solid lightgray;
+}
+
+
+.container-main {
+   
+    background-image: url(./images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+@media screen and(max-width: 576px) {}
+
+@media screen and(min-width: 577px) and (max-width: 992px) {}
+
+@media screen and(min-width: 993px) and (max-width: 1200px) {
+    
+}
+
+@media screen and(min-width: 1201px) {
+   
+}
