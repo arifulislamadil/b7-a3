@@ -8,6 +8,12 @@
     border: 2px solid lightgray;
 }
 
+.img-client{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
 
 .container-main {
    
@@ -18,14 +24,26 @@
     height: 80vh;
 }
 
-@media screen and(max-width: 576px) {}
+.client-main{
+    height: 100%;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 9%);
+    background-blend-mode: multiply;
+    z-index: 33;
+}
 
-@media screen and(min-width: 577px) and (max-width: 992px) {}
+@media screen and(max-width: 576px) {
+   
+}
+
+@media screen and(min-width: 577px) and (max-width: 992px) {
+   
+}
 
 @media screen and(min-width: 993px) and (max-width: 1200px) {
     
 }
 
 @media screen and(min-width: 1201px) {
-   
+    
 }
